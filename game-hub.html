@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Hub</title>
+    <style>
+        body {
+            background-color: #1a1a2e;
+            color: #e94560;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+        h1 {
+            padding: 20px;
+            text-shadow: 0 0 5px #e94560, 0 0 10px #e94560;
+        }
+        .game-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .game {
+            background-color: #0f3460;
+            border: 2px solid #e94560;
+            border-radius: 10px;
+            padding: 20px;
+            width: 200px;
+            box-shadow: 0 0 15px #e94560;
+            transition: transform 0.2s;
+        }
+        .game:hover {
+            transform: scale(1.05);
+        }
+        .game a {
+            text-decoration: none;
+            color: #e94560;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Game Hub!</h1>
+    <div class="game-container">
+        <div class="game"><a href="#pong">Pong</a></div>
+        <div class="game"><a href="#chess">Chess</a></div>
+        <div class="game"><a href="#ludo">Ludo</a></div>
+        <div class="game"><a href="#sudoku">Sudoku</a></div>
+        <div class="game"><a href="#snake">Snake</a></div>
+        <div class="game"><a href="#tictactoe">Tic Tac Toe</a></div>
+    </div>
+</body>
+</html>
