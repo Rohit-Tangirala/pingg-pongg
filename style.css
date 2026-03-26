@@ -1,0 +1,27 @@
+/* Pong Game Styles */
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+canvas {
+    border: 1px solid white;
+}
+
+.paddle {
+    background-color: white;
+    width: 10px;
+    height: 100px;
+}
+
+.ball {
+    background-color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
